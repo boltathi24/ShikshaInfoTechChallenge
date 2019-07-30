@@ -2,8 +2,8 @@
 - TO Execute code follow below steps
 
  1. Import it as a gradle project in Eclipse
- 2.Right click on testNG.xml 
- 3.Choose Run as--> TestNG Suite 
+ 2.Right click on Runner file named ScriptRunner.java
+ 3.Choose Run as--> Junit
  
  Test Execution will be triggered by TestNG.
  

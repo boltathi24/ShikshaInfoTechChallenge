@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-30T20:19:36.358Z",
+        "line": 4,
+        "name": "Check whether Documentation links loads angular js on redirection",
+        "description": "",
+        "id": "documentation-links-validation;check-whether-documentation-links-loads-angular-js-on-redirection",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10448720258,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am in here Documentation page",
+            "match": {
+              "location": "StepDefintions.i_am_in_here_Documentation_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4767873230,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the documentation Links , it should have loaded properly",
+            "match": {
+              "location": "StepDefintions.i_click_on_the_documentation_Links_it_should_have_loaded_properly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2753672772,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the redirected links should be valid",
+            "match": {
+              "location": "StepDefintions.the_redirected_links_should_be_valid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Documentation Links Validation",
+    "description": "",
+    "id": "documentation-links-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/documentationLinkValidation.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

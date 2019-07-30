@@ -16,4 +16,8 @@ dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.11'
     testCompile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.6.0'
     
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '4.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '4.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-core', version: '4.5.0'
+
 }
